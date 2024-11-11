@@ -1,0 +1,57 @@
+* {  
+    text-decoration: none;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+header {  
+    background-color: #ffffff; /* White background */  
+    width: 100%;  
+    height: 100px;  
+    position: fixed;  
+    display: flex;  
+    align-items: center; /* Center items vertically */  
+    justify-content: space-between; /* Space between logo and nav */  
+    padding: 0 20px; /* Padding on sides */  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */  
+}  
+
+.logo {  
+    height: 80px; /* Set height for the logo */  
+}  
+
+header nav ul {  
+    display: flex;  
+    list-style: none; /* Remove bullet points */  
+    padding: 10px;
+}  
+
+header nav ul li {  
+    margin: 0 15px; /* Margin between items */  
+}  
+
+header nav ul li a {  
+    font-family: 'Catamaran', sans-serif; /* Ensure the font is defined */  
+    font-size: 16px; /* Adjust font size for better alignment */  
+    color: #007BFF; /* Main link color */  
+    text-transform: uppercase; /* Uppercase text */  
+}  
+
+/* Add hover effects */  
+header nav ul li a:hover {  
+    color: #0056b3; /* Darker blue on hover */  
+}  
+.download {  
+    padding: 10px 20px;  
+    background-color: lightblue;  
+    border: 1px solid #007BFF;  
+    border-radius: 5px;  
+    color: #007BFF;  
+    font-weight: bold;  
+    transition: background-color 0.3s;  
+}  
+
+.download:hover {  
+    background-color: #007BFF;  
+    color: white;  
+}
